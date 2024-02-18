@@ -6,7 +6,7 @@
  */
 function {{theme_name}}_theme_customizer_register( $wp_customize ) {
 
-    $helper = new {{Theme_ClassName}}();
+    $helper = new {{Theme_ClassName}}Helper();
 
     $wp_customize->get_setting( 'blogname' )->transport         = 'postMessage';
     $wp_customize->get_setting( 'blogdescription' )->transport  = 'postMessage';

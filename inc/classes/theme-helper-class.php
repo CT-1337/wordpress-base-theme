@@ -7,10 +7,10 @@
 defined( 'ABSPATH' ) || exit;
 
 /* Check if Class Exists. */
-if ( ! class_exists( '{{Theme_ClassName}}ThemeHelper' ) ) {
+if ( ! class_exists( '{{Theme_ClassName}}Helper' ) ) {
 
   
-    class {{Theme_ClassName}}ThemeHelper {
+    class {{Theme_ClassName}}Helper {
 
         public $social_links;
 
