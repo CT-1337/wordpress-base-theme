@@ -1,0 +1,50 @@
+/*!
+Theme Name: {{Theme Name}} WP Theme
+Theme URI:
+Author: ByteJam -- Joshua S
+Author URI: https://bytejam.com;
+Description: {{Theme Name}} WordPress Theme
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: {{theme-name}}
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+*/
+
+@import "colors";
+@import "mixins";
+@import "typography";
+@import "helpers";
+
+/*--------------------------------------------------------------
+# Vendor
+--------------------------------------------------------------*/
+@import 'vendor/bootstrap-5.1.3/scss/bootstrap.scss';
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+@import "elements";
+
+
+/*--------------------------------------------------------------
+# Icons
+--------------------------------------------------------------*/
+@import "icons";
+
+
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
+@import "forms";
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+@import "navigation";
+
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+@import "site";
+
+@import "deepdives";

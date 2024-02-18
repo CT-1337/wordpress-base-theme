@@ -1,0 +1,162 @@
+input, :focus-visible {
+
+    &:focus-visible {
+        outline: none;
+    }
+}
+.form, form {
+
+    .form-select{
+
+        &:focus {
+            box-shadow: none;
+            border-color: none;
+        }
+    }
+
+
+
+
+    label{
+
+
+
+    }
+
+    legend {
+        @include breakpoint('large') {
+            margin-bottom: initial;
+
+        }
+    }
+
+    select {
+        outline: none;
+        background-color: #fff;
+        border-radius: 0;
+        background-image: url(./icons/expand-more.svg);
+        background-repeat: no-repeat, repeat;
+        background-position: right;
+        background-size: 3rem auto, contain;
+
+    }
+}
+.form-control {
+    border: solid 1px;
+
+    &:focus {
+        border: solid 1px;
+        box-shadow: none;
+    }
+}
+.validation_error, .validation_message, .gfield_required {
+    font-size: 0.875rem;
+    color: red;
+}
+.gform_wrapper {
+    .gform_fields {
+        list-style-type: none;
+        margin-left: 0;
+        padding-left: 0;
+
+
+        @include breakpoint('large') {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+
+        select {
+            -webkit-appearance: none;
+            appearance: none;
+            height: calc(2.313rem + 2px);
+            padding: 1rem;
+            max-height: 2.313rem;
+            display: block;
+            width: 95%;
+            padding: .25rem;
+
+        }
+
+        input {
+
+
+            &:not([type=checkbox]):not([type=radio]) {
+                height: calc(2.313rem + 2px);
+                padding: 1rem;
+                max-height: 2.313rem;
+                display: block;
+                width: 95%;
+                padding: 1rem;
+                transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+            }
+        }
+
+        .ginput_container_checkbox {
+            position: relative;
+            padding-left: 2rem;
+
+            .gfield_checkbox {
+
+                .gchoice {
+                    display: flex;
+                    flex-wrap: wrap;
+                    position: relative;
+                    padding-left: 1.5rem;
+                    font-size: 1.063rem;
+                    margin: .5rem 0;
+                    align-items: center;
+
+                    @include breakpoint('large') {
+                        padding-left: 2rem;
+                    }
+
+
+                    input {
+
+
+                    }
+                }
+            }
+        }
+
+        textarea {
+            max-width: 100%;
+        }
+        label {
+            padding-bottom:.5rem;
+            margin-bottom: 0;
+        }
+        .gfield_description {
+            padding-top: .5rem;
+        }
+        .gsection_title {
+            margin-top: 2rem;
+        }
+        .gfield_radio, .gfield_checkbox {
+            list-style-type: none;
+            padding-left: 0;
+        }
+    }
+}
+
+.gform_button {
+    @extend .btn-primary;
+    width: 100%;
+
+    @include breakpoint('large') {
+        width: auto;
+    }
+}
+
+.gform_validation_errors {
+    border: none;
+}
+.gform_submission_error {
+    font-size: 1rem;
+}
+.gfield_error {
+    margin-bottom: 0;
+}
+

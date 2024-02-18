@@ -1,0 +1,88 @@
+.facebook-icon {
+    background: url(./icons/facebook.svg) no-repeat;
+    display: block;
+    width: 24px;
+    height: 24px;
+
+    @include breakpoint('large') {
+        width: 30px;
+        height: 30px;
+    }
+}
+.twitter-icon {
+    background: url(./icons/twitter.svg) no-repeat;
+    display: block;
+    width: 24px;
+    height: 24px;
+
+    @include breakpoint('large') {
+        width: 30px;
+        height: 30px;
+    }
+}
+.linkedin-icon {
+    background: url(./icons/linkedin.svg) no-repeat;
+    display: block;
+    width: 24px;
+    height: 24px;
+
+    @include breakpoint('large') {
+        width: 30px;
+        height: 30px;
+    }
+}
+.rss-icon {
+    background: url(./icons/rss.svg) no-repeat;
+    display: block;
+    width: 24px;
+    height: 24px;
+
+    @include breakpoint('large') {
+        width: 30px;
+        height: 30px;
+    }
+}
+.email-icon {
+    background: url(./icons/email-icon.svg) no-repeat;
+    display: block;
+    width: 26px;
+    height: 26px;
+}
+
+.close-icon {
+    background: url(./icons/close-icon.svg) no-repeat;
+    display: block;
+    width: 24px;
+    height: 24px;
+}
+.search-icon {
+    background: url(./icons/search-icon.svg) no-repeat;
+    display: block;
+    width: 24px;
+    height: 24px;
+}
+.menu-toggle-icon {
+    background: url(./icons/menu-toggle.svg) no-repeat;
+    display: block;
+    width: 35px;
+    height: 35px;
+}
+
+.play-icon {
+    background: url(./icons/play-icon.svg) no-repeat;
+    display: block;
+    width: 25px;
+    height: 25px;
+
+
+    @include breakpoint('large') {
+        width: 81px;
+        height: 81px;
+    }
+}
+.arrow-icon {
+    background: url(./icons/arrow-icon.svg) no-repeat;
+    display: block;
+    width: 24px;
+    height: 24px;
+}

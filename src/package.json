@@ -1,0 +1,31 @@
+{
+    "name": "{{theme-name}}",
+    "version": "1.0.0",
+    "description": "{{theme-name}}",
+    "main": "index.js",
+    "scripts": {
+        "dev": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "production": "mix --production"
+    },
+    "keywords": [],
+    "author": "ByteJam -- Joshua S",
+    "license": "ISC",
+    "dependencies": {
+        "@popperjs/core": "^2.9.2",
+        "bootstrap": "^5.0",
+        "jquery": "^3.6",
+        "jquery-validation": "^1.19.2",
+        "waypoints": "^4.0.1"
+    },
+    "devDependencies": {
+        "@babel/helper-compilation-targets": "^7.12.5",
+        "cross-env": "^7.0.3",
+        "laravel-mix": "^6.0.18",
+        "resolve-url-loader": "^3.1.2",
+        "sass": "^1.32.8",
+        "sass-loader": "^10.1.1"
+    }
+}
