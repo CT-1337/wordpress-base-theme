@@ -50,7 +50,6 @@ if ( ! function_exists( '{{theme_name}}_theme_setup' ) ) :
 			'top' => esc_html__( 'Top', '{{theme-name}}' ),
 			'main' => esc_html__( 'Primary', '{{theme-name}}' ),
 			'footer' => esc_html__( 'Footer', '{{theme-name}}' ),
-			//'mobile' => esc_html__( 'Mobile', '{{theme-name}}' ),
 		) );
 
 
@@ -66,12 +65,6 @@ if ( ! function_exists( '{{theme_name}}_theme_setup' ) ) :
 			'caption',
 		) );
 
-		// Set up the WordPress core custom background feature.
-		// add_theme_support( 'custom-background', apply_filters( '{{theme_name}}_theme_custom_background_args', array(
-		// 	'default-color' => 'ffffff',
-		// 	'default-image' => '',
-		// ) ) );
-
 		// Add theme support for selective refresh for widgets.
 		add_theme_support( 'customize-selective-refresh-widgets' );
 
@@ -86,9 +79,6 @@ if ( ! function_exists( '{{theme_name}}_theme_setup' ) ) :
 			'flex-width'  => true,
 			'flex-height' => true,
 		) );
-
-		//add_image_size('article', 800, 480, true);
-		//add_image_size( 'mobile', 600, 600);
 
 	}
 endif;
@@ -120,8 +110,6 @@ function {{theme_name}}_theme_widgets_init() {
 		'after_title' => '</h3>',
 	));
 
-
-
 }
 add_action( 'widgets_init', '{{theme_name}}_theme_widgets_init' );
 
@@ -133,7 +121,7 @@ function {{theme_name}}_theme_scripts() {
 
 	$enable_google_adsens = get_theme_mod( '{{theme_name}}_theme_enable_google_adsense');
 
-	wp_enqueue_style( '{{theme-name}}-theme-fonts', '//fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400&amp;family=Exo:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,80&amp;display=swap');
+	wp_enqueue_style( '{{theme-name}}-theme-fonts', '//fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 	wp_enqueue_style( '{{theme-name}}-css', get_stylesheet_uri(),  array(), '1.0');
 
 	if (!is_admin()) {

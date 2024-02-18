@@ -1,9 +1,16 @@
-A starter WordPress theme with some helpful functions based off BootStrap v5.1.3
+<h1>WordPress Starter Theme</h1>
 
+<h3>This is the starter WordPress theme I use when starting new classical themes. It usilizes some functions from BootStrap v5.1.3 and Slick Slider. There is also some extra code assuming that custom post types (cpt) will be created.</h3>
 
-Variables to do global replacments
+<h3>Variables to do global replacments</h3>
 
-{{theme-name}}
-{{theme_name}}
-{{Theme_ClassName}}
-{{Theme Name}}
+<ul>
+    <li>{{theme-name}}</li>
+    <li>{{theme_name}}</li>
+    <li>{{Theme_ClassName}}</li>
+    <li>{{Theme Name}}</li>
+</ul>
+
+<p>The author sections also need to be revised, they currently use my name - Joshua S.</p>
+
+<i>Do not forget to change the screenshot.png file!</i>
