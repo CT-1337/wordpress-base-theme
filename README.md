@@ -1,6 +1,6 @@
 <h1>WordPress Starter Theme</h1>
 
-<p>This is the starter WordPress theme that I and my workplace use when starting new classic themes. It utilizes some functions from BootStrap v5.1.3 and Slick Slider. The imported fonts are Open Sans and Roboto from Google fonts. There is also some extra code assuming that custom post types (cpt) will be created.</p>
+<p>This is the starter WordPress theme that my workplace and I use when starting new classic themes. It utilizes some functions from BootStrap v5.1.3 and Slick Slider. The imported fonts are Open Sans and Roboto from Google fonts. There is also some extra code assuming that custom post types (cpt) will be created.</p>
 
 <h3>Variables to do global replacments</h3>
 
