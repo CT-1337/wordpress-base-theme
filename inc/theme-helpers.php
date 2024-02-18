@@ -66,7 +66,7 @@ function render_{{theme_name}}_theme_tag_manager(){
 
 function render_{{theme_name}}_theme_social_media_links() {
     $output = '';
-    $helper = new {{Theme_ClassName}}();
+    $helper = new {{Theme_ClassName}}Helper();
 
     if ( isset($helper->social_links) && is_array($helper->social_links) ) {
 
